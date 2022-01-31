@@ -17,7 +17,7 @@ function addSquareMethod(arr) {
     }
     return arr;
 }
-// the answer for addSquare is a bit much for my brain. 
+// the answer for addSquare is a bit much for my brain.it adds a function key to every object in an array
 const humanCalculatorProto = {
         value: function(){return this.total;},
         subtract: function(num) { this.total -= num; this.value();},
